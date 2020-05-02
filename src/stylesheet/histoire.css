@@ -1,0 +1,62 @@
+.mbdesc {
+	font-family: "Comic sans ms", Arial;
+	text-align : justify;
+	font-size : 14px;
+}
+
+.mbdesc h1 {  
+	font-size: 30px;
+	text-align: center;
+	text-shadow: -5px -10px 15px white; 
+	font-family: Harry, Arial;
+	color: orange;
+	text-transform: uppercase;
+}
+
+.mbdesc h2 {
+	height : 30px;
+	font-size : 25px; 
+	text-align : center;
+	font-family : Harry , Arial;
+	border-top-left-radius : 15px;
+	border-top-right-radius : 2px;
+	border-bottom-right-radius : 15px;
+	border-bottom-left-radius : 2px;
+	text-shadow: 5px 5px 5px orange;
+	padding-top: 3px;
+}
+
+#mb-h2-titles{
+	background: -moz-linear-gradient(90deg, white, gray); /* Firefox */
+	background: -webkit-gradient(linear, left top, left bottom, from(gray), to(white)); /* Webkit */
+	-webkit-box-shadow: 5px 5px 15px white;
+	box-shadow: 5px 5px 15px white;
+	color : black;
+}
+
+#mr-h2-titles{
+	background: -moz-linear-gradient(90deg, #CC9CD1, #7E1864); /* Firefox */
+	background: -webkit-gradient(linear, left top, left bottom, from(#7E1864), to(#CC9CD1)); /* Webkit */
+	-webkit-box-shadow: 5px 5px 15px #CC9CD1;
+	box-shadow: 5px 5px 15px #CC9CD1;
+	color : #000080;
+}
+
+#mn-h2-titles{
+	background: -moz-linear-gradient(90deg, gray, black); /* Firefox */
+	background: -webkit-gradient(linear, left top, left bottom, from(black), to(gray)); /* Webkit */
+	-webkit-box-shadow: 5px 5px 15px gray;
+	box-shadow: 5px 5px 15px gray;
+	color : white;
+}
+
+.mbdesc a {
+	text-decoration : underline;
+	color : white;
+	text-transform: capitalize;
+}
+
+.mbdesc a:hover {
+	text-decoration : none;
+	color: maroon;
+}

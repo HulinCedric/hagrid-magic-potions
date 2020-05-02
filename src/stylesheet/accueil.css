@@ -1,0 +1,35 @@
+#hagrid_dessin, #hagrid_dessin img {
+	width: 300px;
+	border-radius: 125px;
+	margin-top: -10%;
+	height: 253px;
+}
+
+#hagrid, #hagrid img {
+	width: 300px;
+	border-radius: 50px;
+	margin-top: -10%;
+	height: 386px;
+}
+
+.bubble {
+	color: black;
+	background-color: white;
+	border-radius: 20px 20px 20px 20px;
+	margin-left: 50%;
+	margin-right: 3%;
+	margin-top: 2%;
+	text-align: center;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.8) -5px 5px 10px inset ;
+	box-shadow: rgba(0, 0, 0, 0.8) -5px 5px 10px inset ;
+	padding-left: 10px;
+}
+
+.bubble a {
+	color: #829227;
+	text-decoration: none;
+}
+
+.bubble a:hover {
+	color: #535F18;
+}

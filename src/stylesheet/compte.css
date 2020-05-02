@@ -1,0 +1,108 @@
+.account {
+	font-family: comic sans ms, arial;
+	text-align: justify;
+}
+
+.account #name_account {  
+	font-size: 40px;
+	text-align: center;
+	text-shadow: -5px -10px 15px #fff;
+	font-family: Harry, Arial;
+	border-bottom: 2px solid gray;
+	padding-bottom: 10px;
+	color: orange;
+}
+
+.red_button {	
+	background: -moz-linear-gradient(90deg, #500000, #C30000); /* Firefox */
+	background: -webkit-gradient(linear, left top, left bottom, from(#C30000), to(#500000)); /* Webkit */
+	
+	border: 1px solid #093c75;
+	
+	-webkit-box-shadow: 0 1px 0 #fff;
+	box-shadow: 0 1px 0 #fff;
+
+	cursor: pointer;
+
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	
+	color: white;
+		
+	text-shadow: none;
+		
+	border-radius: 3px;
+	padding: 5px 10px;
+	text-transform: uppercase;
+}
+
+.red_button:hover {
+	background: -moz-linear-gradient(90deg, #C00000, #800000);
+	background: -webkit-gradient(linear, left top, left bottom, from(#800000), to(#C00000)); /* Webkit */
+}
+
+.red_button_supp {	
+	position: absolute;
+	top: 12px;
+	right: 20px;
+
+	margin:0;
+
+	background: -moz-linear-gradient(90deg, #500000, #C30000); /* Firefox */
+	background: -webkit-gradient(linear, left top, left bottom, from(#C30000), to(#500000)); /* Webkit */
+	
+	border: 1px solid #093c75;
+	
+	-webkit-box-shadow: 0 1px 0 #fff;
+	box-shadow: 0 1px 0 #fff;
+
+	cursor: pointer;
+
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	
+	color: white;
+		
+	text-shadow: none;
+		
+	border-radius: 3px;
+	padding: 5px 10px;
+	text-transform: uppercase;
+}
+
+.red_button_supp:hover {
+	background: -moz-linear-gradient(90deg, #C00000, #800000);
+	background: -webkit-gradient(linear, left top, left bottom, from(#800000), to(#C00000)); /* Webkit */
+}
+
+#vos_recettes {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding-top: 20px;
+	color: maroon;	
+	position: relative;
+	
+	border-color: gray;
+	border-width: 2px;
+
+	border-top-style: solid;
+}
+
+#vos_recettes h1{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	margin: 0px;
+}
+
+.vos_recettes_stat {
+	position: relative;
+	top: 6px;
+	left: 160px;
+	margin: 0px;
+	width: 242px;
+	font-size: 0.9em;
+	text-align: center;
+}

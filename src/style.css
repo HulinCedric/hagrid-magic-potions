@@ -1,0 +1,326 @@
+@font-face {
+	font-family: 'Harry'; 
+	src: url('ressources/Harry.ttf') format('truetype');
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	letter-spacing: 1px;
+	color: white;
+	background: black url(images/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+	font-family: Harry, Times;
+}
+
+img {
+	border: 0px;
+}
+
+#site { 
+	margin: 0px auto;
+	padding: 0;
+	width: 780px;
+}
+
+.header {
+	position : relative;
+	width: 100%;
+	height: 224px;
+	background-repeat: no-repeat;
+	border-top-left-radius: 60px;
+	border-top-right-radius: 60px;
+}
+
+#header_green {
+	background: url(images/header/header_bg_green.png);
+}
+
+#header_red {
+	background: url(images/header/header_bg_red.png);
+}
+
+#header_blue {
+	background: url(images/header/header_bg_blue.png);
+}
+
+.header_drill {
+	position: absolute;
+	top: 224px;
+	width: 780px;
+	height: 154px;
+	background-repeat: no-repeat;
+	z-index: 1;
+}
+
+#header_drill_green {
+	background: url(images/header/header_drill_green.png);
+}
+
+#header_drill_red {
+	background: url(images/header/header_drill_red.png);
+}
+
+#header_drill_blue {
+	background: url(images/header/header_drill_blue.png);
+}
+
+#title {
+	position: absolute;
+	left: 35px;
+	top: 2px;
+	font-size: 180px;
+	width : 510px;
+	text-align: center;
+}
+
+#title a {
+	text-decoration: none;
+	color: black;
+}
+
+#subtitle {
+	position: absolute;
+	top: 190px;
+	left: 270px;
+	font-size: 22px;
+	color:black;
+	cursor: default;
+}
+
+#logo {
+	border: 3px black solid;
+	border-radius: 8px;	
+	position: absolute;
+	left: 560px;
+	width: 146px;
+	height: 212px;
+	-webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#button {
+	position: relative;
+	left: 20px;
+	width: 90px;
+	top: 190px;
+}
+
+#button:hover {
+	top: 191px;
+}
+
+#button a {
+	border: 2px solid black;
+	font-size: 18px;	
+	color: black;
+	text-shadow: 0px 0px 5px #99C03B;
+	text-decoration: none;
+	-webkit-box-shadow: 0px 1px 4px maroon;
+	box-shadow:  0px 1px 4px maroon;
+	border-radius: 10px;	
+	padding: 4px;
+}
+
+#button a:hover{
+	-webkit-box-shadow: 0px 0px 4px maroon;
+	box-shadow:  0px 0px 4px maroon;
+}
+
+#imgmap{
+	position: relative;
+	width: 165px;
+	height: 74px;
+	top: 77px;
+	left: 21px;
+	cursor:pointer;
+}
+
+#body {
+	position: relative;
+	overflow: auto;
+	min-height: 560px;
+	background-image: url(images/menu_bg.png);
+	background-repeat: repeat-y;
+	background-size: 207px;
+}
+
+#menu {
+	float: left;
+	position: relative;
+	width: 207px;
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+
+#menu ul {
+	padding-left: 20px;
+	padding-right: 20px;
+	list-style-type: none;
+}
+
+#menu ul .menu_li {		
+	cursor: pointer;
+	
+	height: 74px;
+		
+	margin-bottom: 40px;
+	
+	background: url(images/menu_li_bg.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+	text-align: center;
+	font-size: 30px;
+	color: maroon;
+}
+
+#menu ul li:hover {
+	text-shadow: 1px 1px 3px maroon;
+}
+
+#menu ul .menu_li a,
+#menu ul .menu_li p {
+	height: 52px;
+	color: maroon;
+	text-decoration: none;
+	display: block;
+	padding-top:22px;
+}
+
+#menu ul .menu_li p {	
+	margin:0;
+}
+
+
+#histoire {
+	display: none
+}
+
+#recette {
+	display: none;
+}
+
+.submenu ul {
+	margin-top: -30px;
+}
+
+.submenu ul li {
+	background-image: url(images/submenu_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	text-align: center;
+	margin-bottom: 12px;
+	height: 48px;
+}
+
+.submenu a {
+	color: white;
+	text-decoration: none;
+	height: 34px;
+	display: block;
+	padding-top:14px;
+}
+
+#container {
+	float: left;
+	background-color: black;
+	width : 533px ;
+	min-height: 645px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	padding-top: 60px;
+	overflow: auto;
+}
+
+.footer_drill {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 780px;
+	height: 94px;
+	background-repeat: no-repeat;
+	z-index: 1;
+}
+
+#footer_drill_green {
+	background-image: url(images/footer/footer_drill_green.png);
+}
+
+#footer_drill_red {
+	background-image: url(images/footer/footer_drill_red.png);
+}
+
+#footer_drill_blue {
+	background-image: url(images/footer/footer_drill_blue.png);
+}
+
+.footer {
+	width: 780px;
+	height: 68px;
+	background-repeat: no-repeat;
+	border-bottom-right-radius: 60px;
+	border-bottom-left-radius: 60px;
+}
+
+#footer_green {
+	background-image: url(images/footer/footer_bg_green.png);
+}
+
+#footer_red {
+	background-image: url(images/footer/footer_bg_red.png);
+}
+
+#footer_blue {
+	background-image: url(images/footer/footer_bg_blue.png);
+}
+
+.footer p {
+	margin: 0;
+	position: relative;
+	top: 25px;
+	color: black;
+	text-align: center;
+	font-size: 16px;
+}
+
+.footer p a {
+	color: maroon;
+}
+
+.footer p a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+#facebook{
+	position: relative;
+	float : left;
+	top: 6px;
+	margin-left : 40px;
+	width: 100px;
+	opacity: 0.7;
+	height: 21px;
+}
+
+#tweeter {
+	position: relative;
+	float : left;
+	top: 6px;
+	opacity: 0.7;
+	height: 21px;
+}
+
+.infobulle{
+	position: absolute;	
+	visibility : hidden;
+	border: 1px solid Black;
+	border-radius: 10px;
+	text-shadow: none;
+	padding: 10px;
+	font-family: Verdana, Arial;
+	font-size: 10px;
+	background-color: #FFFFCC;
+}
